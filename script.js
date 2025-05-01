@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('pageTitle').textContent = `${greeting} Welcome To My Website Portfolio!`;
   });
 
-// dark mode / preference
+// dark mode / preference storage
 const darkToggle = document.getElementById('darkModeToggle');
 const prefersDark = localStorage.getItem('darkMode') === 'true';
 
